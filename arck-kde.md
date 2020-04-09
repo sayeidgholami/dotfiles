@@ -41,7 +41,7 @@ sudo vim /etc/sddm.conf.d/default.conf
 sudo pacman -S kdeplasma-addons
 sudo pacman -S kscreen
 
-
+sudo pacman -S ntfs-3g
 
 
 
