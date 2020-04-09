@@ -42,7 +42,7 @@ sudo pacman -S kdeplasma-addons
 sudo pacman -S kscreen
 
 sudo pacman -S ntfs-3g
-
+sudo pacman -S kvantum-qt5
 
 
 
