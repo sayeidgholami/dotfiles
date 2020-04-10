@@ -1,0 +1,45 @@
+* {
+  background-color: #2f343f80;
+  border-color: #2f343f80;
+  text-color: #a8adb5;
+  spacing: 0;
+  width: 30%;
+  font: "Ubuntu 11";
+  lines: 1;
+}
+
+inputbar {
+  border: 0px 0 1px 0;
+  children: [prompt,entry];
+}
+
+prompt {
+  padding: 16px;
+  border: 0 1px 0 0;
+}
+
+textbox {
+  background-color: #2f343f80;
+  border: 0 0 1px 0;
+  border-color: #2f343f;
+  padding: 8px 16px;
+}
+
+entry {
+  padding: 16px;
+}
+
+listview {
+  cycle: false;
+  margin: 0 0 -1px 0;
+  scrollbar: false;
+}
+
+element {
+  border: 0 0 1px 0;
+  padding: 5px;
+}
+
+element selected {
+  text-color: #FD7980;
+}

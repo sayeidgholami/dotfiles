@@ -1,0 +1,4 @@
+picom &
+conky -c ~/.config/conky/geddy/mygeddy.conkyrc &
+feh --bg-scale --randomize /home/sayeid/Pictures/Wallpapers
+tint2 -c /home/sayeid/.config/tint2/raven/raven-froly.tint2rc

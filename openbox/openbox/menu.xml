@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="OpenBox 3">
+        <item label="FireFox"> 
+            <action name="Execute">
+                <execute>firefox</execute>
+            </action> 
+        </item>
+        <item label="PCManFM"> <action name="Execute">
+            <execute>pcmanfm</execute>
+        </action> </item>
+        <item label="St"> <action name="Execute">
+            <execute>st</execute>
+        </action> </item>
+        <item label="Sublime"> <action name="Execute">
+            <execute>subl</execute>
+        </action> </item>
+        <item label="Code"> <action name="Execute">
+            <execute>code</execute>
+        </action> </item>
+        <item label="IDLE"> <action name="Execute">
+            <execute>idle</execute>
+        </action> </item>
+        <item label="L3afpad"> <action name="Execute">
+            <execute>l3afpad</execute>
+        </action> </item>
+        <item label="AnyDesk"> <action name="Execute">
+            <execute>anydesk</execute>
+        </action> </item>
+        <menu id="5" label="System">
+            <item label="Lxappearance"> <action name="Execute">
+                <execute>lxappearance</execute>
+            </action> </item>
+            <item label="Obconf"> <action name="Execute">
+                <execute>obconf</execute>
+            </action> </item>
+            <item label="Htop"> <action name="Execute">
+                <execute>st -e htop</execute>
+            </action> </item>  
+            <item label="neofetch"> <action name="Execute">
+                <execute>st -e neofetch</execute>
+            </action> </item>
+        </menu>
+        <separator/>
+       
+            <menu id="client-list-menu"/>
+            <item label="Reconfigure"> <action name="Reconfigure"/> </item>
+            <separator/>
+            <item label="Exit"> <action name="Exit"/> </item>
+        
+    </menu>
+</openbox_menu>
