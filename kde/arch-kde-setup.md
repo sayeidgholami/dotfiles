@@ -1,12 +1,16 @@
 ```
 
+# window dual boot
+sudo pacman -S os-prober  # if recognize windows then
+grub-mkconfig -o /boot/grub/grub.cfg   # update grub
+
+
 pacman -S xorg-server xorg-xinit xterm
 pacman -S plamsa-desktop
 pacman -S sddm
 systemctl enable sddm.service
 
 pacman -S konsole dolphin firefox kate
-
 pacman -S networkmanager plasma-nm
 
 systemctl stop dhcpcd
@@ -23,6 +27,10 @@ pacman -S wget
 yay -S skypeforlinux-stable-bin anydesk-bin
 pacman -S telegram-desktop
 yay windscribe-cli
+sudo systemctl enable windscribe
+windscrib login
+windscrib connect
+windscrib disconnet
 
 sudo pacman -S latte-dock
 sudo pacman -S xf86-video-nouveau
