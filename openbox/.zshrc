@@ -121,6 +121,7 @@ alias djrun="python manage.py runserver"
 alias djmkm="python manage.py makemigrations"
 alias djmig="python manage.py migrate"
 alias djapp="python manage.py startapp $1"
+alias djtst="python manage.py test"
 
 # Python
 alias py=python
