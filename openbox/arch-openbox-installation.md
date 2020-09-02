@@ -41,6 +41,7 @@
   - Install vim `pacman -S vim` to able to run visudo
   - Run `visdo` and uncomment Wheel ALL(ALL=ALL) to make user been sudoers
 1. **Enable Network**
+  - `pacman -S dhcpcd`
   - `systemctl enable dhcpcd`
 1. **Reboot**
   - Run `exit`
