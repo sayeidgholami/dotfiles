@@ -32,7 +32,7 @@
   - Run `passwd` give a password to root user
 1. **Boot loader**
   - `pacman -S grub`
-  - `grub-install /dev/sda`
+  - `grub-install --target=i386-pc /dev/sda`
   - `grub-mkconfig -o /boot/grub/grub.cfg`
 1. **Add user**
   - `useradd -m <username>`
